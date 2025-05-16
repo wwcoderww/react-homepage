@@ -24,11 +24,12 @@ export default function App() {
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <RouterProvider router={router} />
-        <ReactQueryDevtools initialIsOpen={false} />
-        <div>
-          <AppLayout />
-        </div>
+        <RouterProvider router={router}>
+          <ReactQueryDevtools initialIsOpen={false} />
+          <div>
+            <AppLayout />
+          </div>
+        </RouterProvider>
       </QueryClientProvider>
     </>
   );

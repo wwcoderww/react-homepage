@@ -4,13 +4,13 @@ function Divider() {
   return <div className="border-b-2"></div>;
 }
 
-export default function LiLinks({ name, link }) {
+export default function LiLinks({ name, link, divider }) {
   return (
     <>
       <li className="hover:opacity-50 pl-1 hover:cursor-pointer">
         <a href={link}>{name}</a>
       </li>
-      <Divider />
+      {divider && <Divider />}
     </>
   );
 }

@@ -8,9 +8,9 @@ function BannerDivider() {
 export default function Banner() {
   return (
     <div className="w-screen flex justify-evenly px-2 border-b-2 bg-orange-400">
-      <BannerOptions>More Bookmarks</BannerOptions>
+      <BannerOptions name="More Bookmarks" path={"/"} />
       <BannerDivider />
-      <BannerOptions>To Do</BannerOptions>
+      <BannerOptions name={"To Do"} path={"/todo"} />
       <BannerDivider />
 
       <BannerOptions>Budget</BannerOptions>
