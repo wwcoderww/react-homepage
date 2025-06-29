@@ -7,6 +7,12 @@ export default function Bookmarks() {
       <ul className="p-2 w-50 text-center">
         <LiLinks name={"GitHub"} link={"https://github.com/"} />
         <LiLinks
+          name={"GitHub - Commit"}
+          link={
+            "https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13"
+          }
+        />
+        <LiLinks
           name={"The Odin Project"}
           link={"https://www.theodinproject.com/dashboard"}
         />
