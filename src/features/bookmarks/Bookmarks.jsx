@@ -13,6 +13,12 @@ export default function Bookmarks() {
           }
         />
         <LiLinks
+          name={"React - Bulletproof"}
+          link={
+            "https://github.com/alan2207/bulletproof-react?tab=readme-ov-file"
+          }
+        />
+        <LiLinks
           name={"The Odin Project"}
           link={"https://www.theodinproject.com/dashboard"}
         />
